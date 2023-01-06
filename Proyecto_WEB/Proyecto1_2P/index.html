@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/0beac2d065.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+Tamma+2&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="js/script.js"></script>
+    <title>Inicio</title>
+</head>
+<body>
+    <header>
+    <div class="cabecera">
+        <img class="logo" src="img/logo.png" alt=""> 
+        <img class="logosilabo" src="img/silabo.png" alt="">  
+        <h1>Automatización de sílabos</h1>
+    </div>
+    <div class="cabecera2">
+            <div class="funciones">
+            <a class="ini-reg" href="Inicio_sesion.html"> Iniciar sesión</a>
+             <a class="ini-reg"  href="Registro_usuario.html">Registrarse</a> 
+            </div>
+    </div>
+    </header> 
+   
+    <div class="container">
+
+        <div class="carrousel">
+
+            <div>
+                <img src="img/libro1.jpg" alt="">
+            </div>
+            <div>
+                <img src="img/libro1.jpg" alt="">
+            </div>
+            
+        </div>
+    </div>
+
+    <div class="informacion">
+         <p>EL SISTEMA DE AUTOMATIZACION DE SILABOS DE LA FACULTAD DE CIENCIAS INFORMATICAS 
+             ES UN SITIO WEB EN DONDE SE ALOJAN LOS SILABOS DE LOS DOCENTE DE LA FACCI, AQUI PUEDES INTERACTURAR, 
+             DESCARGAR Y LEER SUS CONTENIDOS</p>
+    </div>
+        </section>
+        <p class="titulo1" onclick="notifica()"> <i class=" fas fa-book-open"></i> Sílabos </p>
+        <section class="silabos">
+<div class="grid-container">
+        <div class="destacado1">
+            <h2>Silabo 1</h2><br>
+            <img class="imag" src="img/silabo1.jpg" alt="" onclick="notifica()"><br>
+            <h3>Aplicaciones web I</h3> 
+            <p><strong>Subido por:</strong> Patricia Quiroz</p>
+            <p><strong>Fecha:</strong> 15//11/2021</p>
+        </div>
+        <div class="destacado1">
+            <h2>Silabo 2</h2><br>
+            <img class="imag" src="img/silabo2.jpg" alt="" onclick="notifica()"><br>
+            <h3>Aplicaciones web I</h3> 
+            <p><strong>Subido por:</strong> Patricia Quiroz</p>
+            <p><strong>Fecha:</strong> 15//11/2021</p>
+        </div>
+    </div>
+        </section>
+        <section>
+        <h4 class="titulo-map"> <i class="fas fa-video"></i> Video Tutorial </h4>
+           <video src="img/video.mp4" controls muted></video> 
+
+        </section>
+
+        <h2 class="titulo-map"> <i class="fas fa-map-marked-alt"></i> Ubicación de la Facultad de Ciencias Informáticas</h2>
+        <div id="map"></div> 
+    <script src="script.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBK9-bCwgGgLhIkIYUeYECUCYuiJdjxOIA&callback=iniciarMap"></script> 
+
+     <footer>
+         <div class="grid-container">
+        <div class="info">
+            <h4>Sobre nosostros</h4>
+            <a href="sobrenosostros.html" style="text-decoration: none; color: #000;"> ¿Quienes somos?</a> <br>
+            <a href="contactanos.html" style="text-decoration: none; color: #000;"> Contactanos</a>
+        </div>
+        <div class="redes">
+        <h4>Redes sociales</h4>
+        <a class="rede" href="https://mail.google.com/mail?hl=es"><i class="fas fa-envelope"></i></a> 
+        <a class="rede" href="https://www.facebook.com/"> <i class="fab fa-facebook-square"></i></a> 
+        <a class="rede" href="https://www.instagram.com/"><i class="fab fa-instagram-square"></i></a>
+        </div>
+    </div>
+    <div class="copy"> 
+        <p style="text-align:center">© Software automatización de sílabos FACCI - Todos los derechos reservados.</p>
+    </div>
+    </footer>
+</body>
+</html>

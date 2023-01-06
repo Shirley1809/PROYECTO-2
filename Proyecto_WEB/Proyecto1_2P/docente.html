@@ -1,0 +1,71 @@
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Docentes de Gestión Sílabo FACCI</title>
+    <script src="https://kit.fontawesome.com/0beac2d065.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/docente.css">
+	<link href="https://fonts.googleapis.com/css2?family=Baloo+Tamma+2&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <div class="cabecera">
+            <img class="logo" src="img/logo.png" alt=""> 
+            <img class="logosilabo" src="img/silabo.png" alt="">  
+            <h1>Automatización de sílabos</h1>
+        </div>
+        <div class="cabecera2">
+                
+                    <a class="iconod" href="index.html"><i class=" icon fas fa-sign-out-alt"></i></a>
+                    <a class="iconod" href="perfil.html"><i class=" icon fas fa-user"></i></a>
+                    <a class="iconod" href=""> <i class=" icon fas fa-bell" onclick="notificacion()"></i> </a>
+        </div>
+        <nav class="navegacion">
+            <ul class="menu">
+                <li><a href="#"> <i class="fas fa-pen-square"></i> Gestion de sílabos</a>
+                <ul class="submenu">
+                    <li><a href="Registro_asignatura.html"> Registrar asignatura  <i class="fas fa-pencil-alt"></i> </a></li>
+                    <li><a href="Registro_silabo.html">Subir sílabo <i class="fas fa-upload"></i> </a></li>
+                </ul>
+            </li>
+            <li ><a href="home.html"><i class="fas fa-bookmark"></i>  Destacado</a>
+            </li>
+               
+                <li><a href="lista_asignatura.html"><i class="fas fa-book"></i> Asignaturas</a>
+                   
+                </li>
+                <li ><a href="public/index.html"> <i class="fa fa-fas fa-book-open"></i> Sílabos</a>
+                </li>
+                <li><a href="incidencias.html"> <i class="fas fa-exclamation-triangle"></i> Incidencias</a></li>
+            </ul>
+        </nav>
+        </header> 
+    <div class="container">
+    <p>Por favor, seleccione el docente en el siguiente listado para ver sus datos:</p>
+    <form  action="">
+        <select onchange="mostrar(this.value)">
+            <option value="none">Seleccionar Docente</option>
+            <option value="Persona_1">Patricia Quiroz </option>
+            <option value="Persona_2">Homero Mendoza </option>
+            <option value="Persona_3">William Delgado </option>
+            <option value="Persona_4">Robert Moreira</option>
+            <option value="Persona_5">Jonny Peréz </option>
+            <option value="Persona_6">Juan Sendón</option>
+            <option value="Persona_7">Virginia Rodriguez </option>
+            <option value="Persona_8">Winter Molina </option>
+            <option value="Persona_9">Leo Cabeza </option>
+            <option value="Persona_10">Edison Almeida </option>
+        </select>
+    </form>
+</div>
+    <br/>
+    <h2> <span id="txtInformacion"></span></h2>
+    <div id="listaDocentes"> </div>
+</body>
+
+</html>
+<script src="js/javaScript.js"></script>

@@ -1,0 +1,145 @@
+
+body{
+    background-image: linear-gradient(to right,  #ddecd4 ,#def8d2  400%);
+    font-family: 'Baloo Tamma 2', Georgia;
+}
+.cabecera{
+	background:#fff;
+	width: 100%;
+	height: 5em;
+    box-shadow: 10px 10px 5px 0px rgba(245, 245, 245, 0.75);
+    margin: 0em 0em;
+}
+.cabecera2{
+	width: 100%;
+	height: 3em;
+	background: rgb(255, 39, 39);
+    margin: 0em 0em;
+}
+select {
+    font-size: 1.2em;
+    align-content: center;
+    color:rgb(0, 0, 0);
+    border: 3px solid #b3c953;
+    height: 2em;
+    background: #d1e47f;
+    left: 31em;
+}
+header{
+	width: 100%;
+}
+h2{
+    text-align: center;
+}
+span{
+    color: rgb(197, 40, 40);
+}
+.logo{
+	width: 6%;
+	float: right;
+	margin-right: 3em;	
+}
+.iconod{
+	margin-top: 6px;
+	margin-left: 10px;
+	margin-right: 10px;
+	margin-bottom: 10px;
+	padding-top:1px;
+	float: right;
+	font-size: 25px;
+	color: rgb(255, 255, 255);
+}
+
+h1{
+	display: inline-block;
+	margin-left: 12em;
+	margin-top: 1em;
+	color: rgba(209, 51, 51, 0.993);
+}
+.logosilabo{
+	width: 9%;
+	float: left;
+	padding-top: 7px;
+	margin-left: 2em;
+}
+form{
+    display: flex;
+    justify-content: center;
+}
+p{
+    padding-top: 10px;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    font-size: 1.3em;
+}
+div#listaDocentes{
+    display: inline-block;
+    justify-content: center;
+    position: relative;
+    left: 32em;
+    align-items: center;    
+}
+div div {
+    color: rgb(36, 35, 35);
+    background-color: #d1e47f96;
+    font-size: 1.2em;
+    display: flex;
+    justify-content: left;
+    border:  0.1em solid  #b3c953 ;
+    border-radius: 0.2em;
+    margin: 1em;
+    padding: 0.5em;
+    width: 22em;
+}
+header{
+	width: 100%;
+    margin: 0em 0em;
+}
+.navegacion{
+	width: 100%;
+	background-image: linear-gradient(to right,  #b3c953 8%,#7dd87d 120%);
+	color: #fff;	
+    margin: 0em 0em;
+}
+.navegacion ul{
+	list-style: none;	
+    margin: 0em;
+}
+.menu > li{
+	position: relative;
+	display: inline-block;
+    
+}
+.menu > li > a{
+	display: block;
+	padding: 15px 20px;
+	color: #000000;
+	font-family: 'Baloo Tamma 2', Georgia;
+	text-decoration: none;
+}
+.menu li a:hover{
+	color: #f7f7f7;
+	transition: all .3s;
+}
+/* Submenu*/
+.submenu{
+	position: absolute;
+	background: #ff3030;
+	width: 120%;
+	visibility: hidden;
+	opacity: 0;
+	transition: opacity 1.5s;
+}
+.submenu li a{
+	display: block;
+	padding: 15px;
+	color: #fff;
+	font-family: 'Open sans';
+	text-decoration: none;
+}
+.menu li:hover .submenu{
+	visibility: visible;
+	opacity: 1;
+}
+
+
